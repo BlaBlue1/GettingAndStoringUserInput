@@ -1,0 +1,12 @@
+imp
+Open
+
+partTimeCount = 10
+fullTimeCount = 25
+ IF employmentStatus  is PART_TIME THEN
+   add 1 to partTimeCount
+ ELSE
+   add 1 to fullTimeCount
+ EndIF
+
+End Open
